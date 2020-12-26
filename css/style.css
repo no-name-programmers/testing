@@ -1,16 +1,30 @@
+/*
+    Paleta de Colores
+    BLANCO: #E8E8E8
+    ROJO: #f05454
+    AZUL: #30475E
+    NEGRO: #222831 
+*/
+
+body{
+    background: #222831;
+}
+
 .image{
     width: 20%;
 }
 
 .navbar{
+    background: #f05454;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
-    box-shadow: black;
+    box-shadow: 100px 100px black 10px 40px;
+    z-index: 99;
 }
 
 .enlace{
-    display: inline-block;
-    padding: 10px 60px;
+    display: inline;
+    padding: 10px 50px;
     float: left;
     margin-left: 45px;
 }
@@ -18,9 +32,22 @@
 .enlace a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .enlace>a:hover{
     color: rgb(53, 50, 50);
+}
+
+/*Carrusel*/
+
+.carrusel{
+    background: url(/galery/Black-Clover-Yami-Sukehiro-anime-anime-boys-1911749-wallhere.com.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    z-index: 98;
+    margin-top: -175px;
 }
