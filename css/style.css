@@ -1,8 +1,24 @@
 .image{
-    width: 15%;
+    width: 20%;
 }
 
 .navbar{
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
+}
+
+.enlace{
+    display: inline-block;
+    padding: 10px 60px;
+    float: left;
+    margin-left: 50px;
+}
+
+.enlace a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.enlace>a:hover{
+    color: rgb(53, 50, 50);
 }
