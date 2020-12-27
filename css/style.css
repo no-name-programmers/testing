@@ -15,10 +15,10 @@ body{
 }
 
 .navbar{
-    background: #f05454;
+    background: #f05454ea;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
-    box-shadow: 100px 100px black 10px 40px;
+    box-shadow: 0px 4px 20px rgb(0, 0, 0);
     z-index: 99;
 }
 
@@ -43,11 +43,12 @@ body{
 
 .carrusel{
     background: url(/galery/Black-Clover-Yami-Sukehiro-anime-anime-boys-1911749-wallhere.com.jpg);
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    background-attachment: fixed;
     z-index: 98;
     margin-top: -175px;
 }
