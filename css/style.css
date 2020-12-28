@@ -12,6 +12,11 @@ body{
 
 .image{
     width: 17%;
+    margin-left: 10px;
+}
+
+ul{
+    overflow-x: auto;
 }
 
 ul li{
@@ -19,15 +24,20 @@ ul li{
 }
 
 .btn a{
-    transition: all ease-out 0.5s;
+    transition: all ease-out 0.25s;
     color: white;
+    position: unset;
 }
 
 
 .btn>a:hover{
-    color: rgb(148, 148, 148);
+    color: #222831;
     transform: scale(1.2);
     font-size: 20px;
+}
+
+.btn>a:active{
+    color: #5a5757;
 }
 
 li a{
@@ -48,4 +58,82 @@ li a{
     background-attachment: fixed;
     z-index: 98;
     margin-top: -200px;
+}
+
+@media (max-width: 1258px){
+
+    li a{
+        font-size: 14px;
+    }
+
+    .btn{
+        padding: 0px 15px;
+        margin: 0px 20px;
+        transition: all ease;
+    }
+}
+
+@media (max-width: 1071px){
+    .btn{
+        padding: 0px ;
+        margin: 0px 5px;
+    }
+
+    li a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 771px){
+    .btn{
+        margin: 0px;
+    }
+
+    .btn a{
+        font-size: 11px;
+        transition: ease-out all;
+    }
+
+    .btn a:hover{
+        font-size: 11px;
+        color: #5a5757;
+        transform:scale(1);
+    }
+    .btn a:active{
+        color:#222831;
+    }
+}
+
+@media (max-width:652px){
+    .btn a{
+        font-size: 9px;
+    }
+
+    .btn a:hover{
+        font-size: 9px;
+        color: #5a5757;
+        transform:scale(1);
+    }
+    .btn a:active{
+        color: #222831;
+    }
+}
+
+@media(max-width:618px){
+    .btn a{
+        padding: 0px;
+        margin: 0px 25px;
+        font-size:8px;
+        transition: ease-out all;
+    }
+
+    .btn a:hover{
+        font-size: 8px;
+        color:#5a5757 ;
+        transform:scale(1);
+    }
+
+    .btn a:active{
+        color: #222831;
+    }
 }
