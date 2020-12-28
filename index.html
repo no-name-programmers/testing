@@ -19,32 +19,38 @@
 <body>
 	
 	<!-- NAVEGACION -->
-	<nav>
-		<div class="navbar container-lg py-3 py-md-3 py-sm-3">
-				<div class="text-decoration-none text-dark">
-					<ul class="text-decoration-none d-inline">
-						<li class="enlace"><a href="#">Inicio</a></li>
-						<li class="enlace"><a href="#">Contactos</a></li>
+	<nav class="navbar navbar-expand-md navbar-dark">
+		<div class="container-lg py-3 py-md-3">
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav text-decoration-none d-inline">
+						<li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
 					</ul>
 				</div>
-				<button>
-					<span>
-						
-					</span>
-				</button>
-				<img class="image" src="galery/Pelota.png" alt="testing_image">
-				<div class="text-decoration-none">
-					<ul class="d-inline">
-						<li class="enlace"><a href="#">Planes</a></li>
-						<li class="enlace"><a href="#">Acerca de </a></li>
+				<img class="image navbar-brand" src="galery/Pelota.png" alt="testing_image">
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav text-decoration-none d-inline">
+						<li class="nav-item"><a class="nav-link" href="#">Planes</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Acerca de </a></li>
 					</ul>
 				</div>
-			</div>
+				<button class="navbar-toggler" 
+			type="button"
+			data-target="#navbarContent" 
+			data-toggle="collapse"
+			aria-controls="navbarContent"
+			aria-expanded="false"
+			aria-label="Toogle navigation"
+			>
+			<span class="navbar-toggler-icon">
+				
+			</span>
+		</button>
 		</div>
 	</nav>
 	
 	<!-- Carrusel -->
-	<div class="carrusel container-lg">
+	<div class="carrusel">
 	</div>
 
 	<!-- Que hacemos -->

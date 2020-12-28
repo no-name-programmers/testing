@@ -10,45 +10,41 @@ body{
     background: #222831;
 }
 
+nav{
+    background: linear-gradient(rgba(0, 0, 0, 0.808),rgba(255, 255, 255, 0));
+}
+
 .image{
     width: 20%;
 }
 
-.navbar{
-    background: #f05454ea;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    box-shadow: 0px 4px 20px rgb(0, 0, 0);
-    z-index: 99;
-}
-
-.enlace{
+.nav-item{
     display: inline;
-    padding: 10px 50px;
+    padding: 10px 40px;
     float: left;
-    margin-left: 45px;
+    margin-left: 70px;
 }
 
-.enlace a{
+.nav-item>a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .enlace>a:hover{
-    color: rgb(53, 50, 50);
+    color: rgb(12, 7, 7);
 }
 
 /*Carrusel*/
 
 .carrusel{
-    background: url(/galery/Black-Clover-Yami-Sukehiro-anime-anime-boys-1911749-wallhere.com.jpg);
-    height: 95vh;
+    background: url(/galery/Inicio_de_pagina.jpg);
+    height: 99vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
     z-index: 98;
-    margin-top: -175px;
+    margin-top: -200px;
 }
