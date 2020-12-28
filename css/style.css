@@ -10,35 +10,35 @@ body{
     background: #222831;
 }
 
-nav{
-    background: linear-gradient(rgba(0, 0, 0, 0.808),rgba(255, 255, 255, 0));
-}
-
 .image{
-    width: 20%;
+    width: 210px;
 }
 
-.nav-item{
-    display: inline;
-    padding: 10px 40px;
-    float: left;
-    margin-left: 70px;
+ul li{
+    margin: 0px 40px;
 }
 
-.nav-item>a{
+.btn a{
+    transition: all ease-out 0.5s;
+    color: white;
+}
+
+.btn>a:hover{
+    color: rgb(148, 148, 148);
+    transform: scale(1.5);
+    font-size: 20px;
+}
+
+li a{
+    margin: 10px 40px;
     text-decoration: none;
-    color: #ffffff;
     font-size: 18px;
-}
-
-.enlace>a:hover{
-    color: rgb(12, 7, 7);
 }
 
 /*Carrusel*/
 
 .carrusel{
-    background: url(/galery/Inicio_de_pagina.jpg);
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.767),rgba(255, 255, 255, 0.425)),url(/galery/Escritorio.jpg) ;
     height: 99vh;
     width: 100%;
     background-repeat: no-repeat;
