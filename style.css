@@ -14,7 +14,7 @@ body{
 
 .image{
     width: 17%;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 ul{
@@ -121,7 +121,7 @@ div .separador{
     }
 }
 
-@media (max-width:670px){
+@media (max-width:675px){
     .btn a{
         font-size: 9px;
     }
@@ -136,7 +136,7 @@ div .separador{
     }
 }
 
-@media(max-width:630px){
+@media(max-width:641px){
     .btn a{
         padding: 0px;
         margin: 0px 25px;
@@ -155,10 +155,29 @@ div .separador{
     }
 }
 
-@media(max-width:452px){
+@media(max-width:482px){
     .btn a{
         padding: 0px;
         margin: 0px 10px;
+        font-size:8px;
+        transition: ease-out all;
+    }
+
+    .btn a:hover{
+        font-size: 8px;
+        color:#5a5757 ;
+        transform:scale(1);
+    }
+
+    .btn a:active{
+        color: #222831;
+    }
+}
+
+@media(max-width:290px){
+    .btn a{
+        padding: 0px;
+        margin: 0px 5px;
         font-size:8px;
         transition: ease-out all;
     }
