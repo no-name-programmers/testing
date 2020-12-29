@@ -23,6 +23,10 @@ ul li{
     margin: 0px 40px;
 }
 
+.btn{
+    border-bottom: #222831bb solid 2.5px;
+}
+
 .btn a{
     transition: all ease-out 0.25s;
     color: white;
@@ -50,7 +54,7 @@ li a{
 
 .carrusel{
     background: linear-gradient(180deg,rgba(0, 0, 0, 0.767),rgba(255, 255, 255, 0.425)),url(/galery/Escritorio.jpg) ;
-    height: 99vh;
+    height: 110vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -59,6 +63,19 @@ li a{
     z-index: 98;
     margin-top: -200px;
 }
+
+
+.separador{
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    margin:0px 0px -65px 0px;
+    padding: 20px 0px;
+    
+}
+
+
+/* Responsive Manual*/
 
 @media (max-width: 1258px){
 
