@@ -14,7 +14,7 @@
 */
 
 body{
-    background: #222831;
+    background: linear-gradient(180deg,#222831 60%,#30475E);;
     margin: 0px;
     padding: 0px;
 }
@@ -102,13 +102,70 @@ div .separador{
     margin-top: -160px;
 }
 
-
-div .diagonal{
-    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+.titulo-contenido{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    color: #E8E8E8;
 }
 
-.diagonal .img-carta{
-    height: 20rem;
+.carta{
+    height: 300px;
+    width: 310px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.carta-info{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.carta-info a{
+    font-size: 18px;
+    border-bottom: #E8E8E8 solid 2px;
+    margin: 27px 0px 5px 0px;
+    transition: all ease-out 0.40s;
+}
+
+.carta-info a:hover{
+    
+    border-bottom:#f05454 solid 2px;
+    color: #f05454;
+    transform: scale(1);
+    font-size: 18px;
+}
+
+.carta-info a:active{
+    color: black;
+    border-bottom: black 2px solid;
+}
+
+.carta-izq{
+    background: url(galery/Black-Clover-Yami-Sukehiro-anime-anime-boys-1911749-wallhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-right: #30475E solid 1px;
+}
+
+.carta-cen{
+    background: url(galery/Escritorio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-left: #30475E solid 1px;
+    border-right: #30475E solid 1px;
+}
+
+.carta-der{
+    background: url(galery/Inicio_de_pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-right: #30475E solid 1px;
 }
 
 
@@ -123,6 +180,21 @@ div .diagonal{
     .btn{
         padding: 0px 15px;
         margin: 0px 20px;
+    }
+
+    .carta-info a{
+        font-size: 18px;
+        transition: all ease-out 0.40s;
+    }
+    
+    .carta-info a:hover{
+        transform: scale(1);
+        font-size: 18px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
 }
 
@@ -152,6 +224,21 @@ div .diagonal{
 
     .parrafo{
         font-size: 30px;
+    }
+
+    .carta-info a{
+        font-size: 18px;
+        transition: all ease-out 0.40s;
+    }
+    
+    .carta-info a:hover{
+        transform: scale(1);
+        font-size: 18px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
     
 }
@@ -188,6 +275,25 @@ div .diagonal{
     .parrafo{
         font-size: 30px;
     }
+
+    .titulo-contenido{
+        font-size: 50px;
+    }
+
+    .carta-info a{
+        font-size: 18px;
+        transition: all ease-out 0.40s;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 18px;
+    }
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
+    }
 }
 
 @media (max-width:685px){
@@ -202,6 +308,21 @@ div .diagonal{
     }
     .btn a:active{
         color: #222831;
+    }
+
+    .carta-info a{
+        font-size: 16px;
+        transition: all ease-out 0.40s;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 16px;
+    }
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
 }
 
@@ -238,6 +359,26 @@ div .diagonal{
     .parrafo{
         font-size: 20px;
     }
+
+    .titulo-contenido{
+        font-size: 47px;
+    }
+
+    .carta-info a{
+        font-size: 16px;
+        transition: all ease-out 0.40s;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 16px;
+    }
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
+    }
 }
 
 @media(max-width:545px){
@@ -256,6 +397,34 @@ div .diagonal{
     .parrafo{
         margin-top: 35px;
         font-size: 20px;
+    }
+
+    .titulo-contenido{
+        font-size: 40px;
+    }
+
+    .carta{
+        height: 270px;
+        width: 290px;
+        border-radius: 40%;
+        margin: auto;
+    }
+
+    .carta-info a{
+        font-size: 16px;
+        transition: all ease-out 0.40s;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 16px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
 }
 
@@ -276,6 +445,26 @@ div .diagonal{
     .btn a:active{
         color: #222831;
     }
+
+    .titulo-contenido{
+        font-size: 37px;
+    }
+
+    .carta-info a{
+        font-size: 16px;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 16px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
+    }
 }
 
 @media (max-width:445px){
@@ -294,6 +483,26 @@ div .diagonal{
     .parrafo{
         margin-top: 35px;
         font-size:18px;
+    }
+
+    .titulo-contenido{
+        font-size: 35px;
+    }
+
+    .carta-info a{
+        font-size: 16px;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 16px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
 }
 
@@ -327,6 +536,29 @@ div .diagonal{
     .parrafo{
         margin-top: 35px;
         font-size:17px;
+    }
+
+    .carta{
+        height: 220px;
+        width: 250px;
+        border-radius: 35%;
+        margin: auto;
+    }
+
+    .carta-info a{
+        font-size: 15px;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 15px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
 }
 
@@ -363,6 +595,22 @@ div .diagonal{
         margin: 65px 65px 0px 65px;
         font-size: 14px;
     }
+
+    .carta-info a{
+        font-size: 15px;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 15px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
+    }
 }
 
 @media (max-width:310px){
@@ -398,6 +646,33 @@ div .diagonal{
         padding: 5px 0px;
         margin: 50px 35px 0px 35px;
         font-size: 15px;
+    }
+
+    .titulo-contenido{
+        font-size: 35px;
+    }
+
+    .carta{
+        height: 200px;
+        width: 220px;
+        border-radius: 25%;
+        margin: auto;
+    }
+
+    .carta-info a{
+        font-size: 14px;
+        margin: 10px auto;
+    }
+    
+    .carta-info a:hover{
+        color: #f05454;
+        transform: scale(1);
+        font-size: 14px;
+    }
+
+    .carta-info a:active{
+        color: black;
+        border-bottom: black 2px solid;
     }
 
 }
