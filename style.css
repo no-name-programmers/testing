@@ -56,7 +56,7 @@ ul{
 /*Carrusel*/
 
 .carrusel{
-    background: linear-gradient(180deg,rgba(0, 0, 0, 0.822),rgba(255, 255, 255, 0.425)), url(galery/Escritorio.jpg);
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.829),rgba(255, 255, 255, 0.479)), url(galery/Escritorio.jpg);
     height: 110vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -675,4 +675,45 @@ div .separador{
         border-bottom: black 2px solid;
     }
 
+}
+
+/* Resposive height */
+
+@media (max-height:500px){
+    .carrusel{
+        height: 140vh;
+    }
+
+    .titulo-box{
+        justify-content: center;
+        padding-bottom: 0px;
+        color: rgba(252, 252, 252, 0.953);
+        margin: calc(90vh - 100px) 2% 0px 2%;
+    }
+}
+
+@media (max-height:400px){
+    .carrusel{
+        height: 150vh;
+    }
+
+    .titulo-box{
+        justify-content: center;
+        padding-bottom: 0px;
+        color: rgba(252, 252, 252, 0.953);
+        margin: calc(90vh - 60px) 2% 0px 2%;
+    }
+}
+
+@media (max-height:300px){
+    .carrusel{
+        height: 150vh;
+    }
+
+    .titulo-box{
+        justify-content: center;
+        padding-bottom: 0px;
+        color: rgba(252, 252, 252, 0.953);
+        margin: calc(90vh - 40px) 2% 0px 2%;
+    }
 }
