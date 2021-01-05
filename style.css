@@ -16,6 +16,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #222831;
 }
 
 .image{
@@ -94,6 +95,7 @@ ul{
 .contenido{
     background: linear-gradient(180deg,#222831 60%,#30475E);
     background-repeat: no-repeat;
+    margin-top: -5px;
 }
 
 div .separador{
@@ -101,6 +103,7 @@ div .separador{
     position: static;
     top: 0;
     margin-top: -160px;
+    margin-bottom: 0px;
 }
 
 .titulo-contenido{
@@ -172,7 +175,7 @@ div .separador{
 
 .separador-top{
     z-index: 100;
-    margin: 0px;
+    margin-top: -5px;
     position: relative;
 }
 
@@ -197,14 +200,8 @@ div .separador{
 .carousel img{
     padding: 0px;
     z-index: 98;
-    height: 450px;
-}
-
-.diagonal{
-    height: 450px;
-    z-index: 98;
-    margin: 0px;
-    padding: 0px;
+    height: 500px;
+    margin: auto 0px;
 }
 
 .contenido-box{
@@ -215,7 +212,7 @@ div .separador{
 
 .separador-bottom-shadow{
     z-index: 100;
-    margin: 215px 0px 0px 0px;
+    margin: 265px 0px 0px 0px;
     position: relative;
 }
 
@@ -224,6 +221,26 @@ div .separador{
     margin: -145px 0px 0px 0px;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Manual*/
 
 @media (max-width: 1258px){
@@ -481,6 +498,18 @@ div .separador{
         color: black;
         border-bottom: black 2px solid;
     }
+
+    .relleno{
+        margin-bottom: 0px;
+    }
+
+    .carousel img{
+        height: 250px;
+    }
+
+    .separador-bottom-shadow{
+        margin: 0px 0px 0px 0px;
+    }
 }
 
 @media(max-width:495px){
@@ -730,7 +759,27 @@ div .separador{
         border-bottom: black 2px solid;
     }
 
+    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Resposive height */
 
