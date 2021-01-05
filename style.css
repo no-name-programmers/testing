@@ -14,7 +14,6 @@
 */
 
 body{
-    background: linear-gradient(180deg,#222831 60%,#30475E);;
     margin: 0px;
     padding: 0px;
 }
@@ -63,7 +62,7 @@ ul{
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
-    z-index: 98;
+    z-index:100;
     margin-top: -200px;
 }
 
@@ -92,8 +91,10 @@ ul{
     padding: 15px 0px;
 }
 
-
-
+.contenido{
+    background: linear-gradient(180deg,#222831 60%,#30475E);
+    background-repeat: no-repeat;
+}
 
 div .separador{
     z-index: 99;
@@ -105,7 +106,8 @@ div .separador{
 .titulo-contenido{
     font-size: 50px;
     text-align: center;
-    margin-top: 5px;
+    padding-top: 10px;
+    margin-top: 0px;
     margin-bottom: 35px;
     color: #E8E8E8;
 }
@@ -168,7 +170,60 @@ div .separador{
     border-right: #30475E solid 1px;
 }
 
+.separador-top{
+    z-index: 100;
+    margin: 0px;
+    position: relative;
+}
 
+.separador-top-shadow{
+    z-index: 99;
+    margin: -145px 0px 0px 0px;
+    position: relative;
+}
+
+.relleno{
+    position: absolute;
+    background: linear-gradient(180deg,#30475E 70%, #f05454) ;
+    z-index: 98;
+    margin-top: -110px;
+}
+
+.carousel{
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel img{
+    padding: 0px;
+    z-index: 98;
+    height: 450px;
+}
+
+.diagonal{
+    height: 450px;
+    z-index: 98;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenido-box{
+    background: rgba(218, 112, 214, 0.788);
+    height: 220px;
+    margin: 15px 0px 0px 0px;
+}
+
+.separador-bottom-shadow{
+    z-index: 100;
+    margin: 215px 0px 0px 0px;
+    position: relative;
+}
+
+.separador-bottom{
+    z-index: 100;
+    margin: -145px 0px 0px 0px;
+    position: relative;
+}
 /* Responsive Manual*/
 
 @media (max-width: 1258px){
